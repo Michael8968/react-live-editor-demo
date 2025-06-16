@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://michael8968.github.io/react-live-editor-demo",
+  "homepage": "https://michael8968.github.io/react-scratch-demo",
   "scripts": {
     "start": "vite",
     "build": "tsc -b && vite build",
