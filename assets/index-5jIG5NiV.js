@@ -75,9 +75,9 @@ root.render(
       </head>
       <body>
         <div id="root">${i}</div>
-        <script src="https://unpkg.com/react@18/umd/react.development.js"><\/script>
-        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"><\/script>
-        <script src="https://unpkg.com/@babel/standalone/babel.min.js"><\/script>
+        <script src="/react-live-editor-demo/react.development.js"><\/script>
+        <script src="/react-live-editor-demo/react-dom.development.js"><\/script>
+        <script src="/react-live-editor-demo/standalone/babel.min.js"><\/script>
         <script type="text/babel">
           ${z}
         <\/script>
