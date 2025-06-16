@@ -6,11 +6,11 @@
   "homepage": "https://michael8968.github.io/react-live-editor-demo",
   "scripts": {
     "start": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && copyfiles -u 1 dist/**/* docs",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "@monaco-editor/react": "^4.7.0",
@@ -23,6 +23,7 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react-swc": "^3.9.0",
+    "copyfiles": "^2.4.1",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
